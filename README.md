@@ -2,6 +2,8 @@
 
 ## Its a simple working project to understand working of HTTP and Observable.
 
+> ## Topics Covered in this project:-
+
 ```
 1. Component
 2. Http 
