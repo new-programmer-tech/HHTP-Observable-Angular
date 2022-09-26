@@ -25,7 +25,14 @@
 1. The response we get back from the HTTP call , is an observable
 2. A sequence of items that arrives asychronously over time.
 
-> Subscribe:-
+- ## Subscribe:-
+1. Subscribe() is a method from the rxjs library.
+2. The Subscribe operator is the glue that connects an observer to an Observable.
+> ## Example:-
+```
+3. If you can imagine yourself subscribing to a newsletter, every time there is a new newsletter, 
+they will send it to your home (the method inside subscribe gets called).
+```
 
 ```
   getAllEmployee(){
