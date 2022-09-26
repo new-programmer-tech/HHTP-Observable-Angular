@@ -24,3 +24,20 @@
 - ## Observable :- 
 1. The response we get back from the HTTP call , is an observable
 2. A sequence of items that arrives asychronously over time.
+
+> Subscribe:-
+
+```
+  getAllEmployee(){
+    this.api.getEmployee().subscribe({
+      next:(res:any)=> {
+        console.log(res);
+        this.list =res;
+      },
+      error:()=>{
+        alert("Error while fetching data")
+      }
+    })
+  }
+  
+  ```
